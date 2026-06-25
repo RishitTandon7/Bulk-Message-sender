@@ -179,3 +179,4 @@
 2026-06-25 16:53:37 - Add move.js
 2026-06-25 20:47:58 - Add package.json
 2026-06-25 19:36:09 - Add tsc
+2026-06-25 08:39:12 - Add detectPlatform.d.ts
