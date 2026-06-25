@@ -132,3 +132,4 @@
 2026-06-25 10:15:39 - Add extract-zip.cmd
 2026-06-25 16:58:48 - Add DefaultProvider.js.map
 2026-06-25 10:50:31 - Add firefox.d.ts
+2026-06-25 19:03:44 - Add fileUtil.d.ts
