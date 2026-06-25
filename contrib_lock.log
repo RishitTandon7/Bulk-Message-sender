@@ -103,3 +103,4 @@
 2026-06-25 16:24:36 - Add electron-osx-flat.ps1
 2026-06-25 20:49:31 - Add index.d.ts
 2026-06-25 08:35:03 - Add chrome-headless-shell.js
+2026-06-25 15:33:26 - Add helpers.d.ts
