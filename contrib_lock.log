@@ -121,3 +121,4 @@
 2026-06-25 08:58:10 - Add DefaultProvider.ts
 2026-06-25 20:56:09 - Add semver.js
 2026-06-25 20:11:47 - Add context-asyncify.js
+2026-06-25 18:18:03 - Add asar-utils.d.ts
