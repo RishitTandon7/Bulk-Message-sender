@@ -273,3 +273,4 @@
 2026-06-26 15:53:44 - Add provider.ts
 2026-06-26 15:01:22 - Add util-provisioning-profiles.d.ts
 2026-06-26 20:41:13 - Add electron-builder.cmd
+2026-06-26 16:27:25 - Add CLI.d.ts.map
