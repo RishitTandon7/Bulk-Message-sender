@@ -184,3 +184,4 @@
 2026-06-25 15:01:33 - Add output-json.js
 2026-06-25 14:18:19 - Add 7za
 2026-06-25 10:28:04 - Add chrome-headless-shell.d.ts
+2026-06-26 14:34:35 - Add asar-utils.js
