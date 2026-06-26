@@ -224,3 +224,4 @@
 2026-06-26 11:43:22 - Add absolutePath.d.ts
 2026-06-26 17:45:16 - Add artifact-utils.d.ts
 2026-06-26 17:37:04 - Add integrity.d.ts
+2026-06-26 09:55:05 - Add Cache.ts
