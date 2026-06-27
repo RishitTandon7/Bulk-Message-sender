@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WhatsApp Group Bulk Sender</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Desktop sender</p>
+          <h1>WhatsApp Group Bulk Sender</h1>
+          <p class="lead">
+            Load groups, write messages, scan the QR code once, and send in batches of 5.
+          </p>
+        </div>
+        <div class="status-card">
+          <div class="status-dot" id="readyDot"></div>
+          <div>
+            <div class="status-label" id="readyLabel">Starting up</div>
+            <div class="status-subtitle" id="readySubtitle">Waiting for WhatsApp client</div>
+          </div>
+        </div>
+      </header>
+
+      <main class="layout">
+        <section class="panel groups-panel">
+          <div class="panel-header">
+            <h2>Groups</h2>
+            <span>One group name per line</span>
+          </div>
+          <textarea id="groupsInput" spellcheck="false" placeholder="Enter group names here"></textarea>
+          <div class="button-row">
+            <button id="saveGroupsBtn" class="secondary">Save Groups</button>
+            <button id="resetDoneBtn" class="secondary">Reset Done Today</button>
+          </div>
+        </section>
+
+        <section class="panel messages-panel">
+          <div class="panel-header">
+            <h2>Messages</h2>
+            <span>Separate message blocks with a blank line</span>
+          </div>
+          <textarea id="messagesInput" spellcheck="false" placeholder="Write your message here"></textarea>
+
+          <div class="actions-row">
+            <button id="openWhatsAppBtn" class="ghost">Open WhatsApp Web</button>
+            <button id="startSendingBtn" class="primary">Start Sending</button>
+          </div>
+
+          <div class="qr-card">
+            <div class="qr-copy">
+              <h3>Login</h3>
+              <p>Scan this QR code from WhatsApp on your phone if the app asks for login.</p>
+            </div>
+            <img id="qrImage" alt="WhatsApp QR code" />
+          </div>
+        </section>
+
+        <section class="panel activity-panel">
+          <div class="panel-header">
+            <h2>Activity</h2>
+            <span>Live send log</span>
+          </div>
+          <div id="logOutput" class="log-output"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="renderer.js"></script>
+  </body>
+</html>
