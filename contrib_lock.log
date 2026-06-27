@@ -315,3 +315,4 @@
 2026-06-27 09:17:58 - Add legacy.js.map
 2026-06-27 13:41:49 - Add detectPlatform.js
 2026-06-27 09:01:39 - Add index.d.ts
+2026-06-27 17:26:02 - Add Cache.d.ts
