@@ -393,3 +393,4 @@
 2026-06-28 14:17:41 - Add package.json
 2026-06-28 13:02:30 - Add file-utils.d.ts
 2026-06-28 19:17:27 - Add asar
+2026-06-28 10:52:41 - Add detectPlatform.d.ts.map
